@@ -5,14 +5,13 @@ export default class Cell extends Component {
   constructor(props) {
     super()
     this.state = {
-      color: props
+      color: props.vals
     }
   }
   
   changeNewColor = (e) => {
-    const newColor = '#333'
     this.setState({
-      color: newColor
+      color: '#333'
     })
   }
   
