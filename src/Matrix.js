@@ -4,7 +4,6 @@ import Cell from './Cell';
 export default class Matrix extends Component {
   
   genRow = (vals) => {
-    // return vals.map(val => <div className="cell"></div>)
     return vals.map(val => <Cell value={val} />)
   }
   
