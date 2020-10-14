@@ -9,7 +9,7 @@ export default class Cell extends Component {
     }
   }
   
-  changeNewColor = () => {
+  updateColor = () => {
     this.setState({
       color: '#333'
     })
@@ -17,7 +17,7 @@ export default class Cell extends Component {
   
   render() {
     return (
-      <div className="cell" style={{backgroundColor: this.state.color}} onClick={this.changeNewColor}></div>
+      <div className="cell" style={{backgroundColor: this.state.color}} onClick={this.updateColor}></div>
     )
   }
 }
