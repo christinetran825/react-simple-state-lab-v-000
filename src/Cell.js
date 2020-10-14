@@ -9,7 +9,7 @@ export default class Cell extends Component {
     }
   }
   
-  changeNewColor = (e) => {
+  changeNewColor = () => {
     this.setState({
       color: '#333'
     })
